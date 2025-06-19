@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Battle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader">
+    <img src="loader.gif" alt="Loading..." />
+  </div>
+
+  <!-- Navbar -->
+  <header class="main-header">
+    <div class="container">
+      <h1 class="logo">Frontend Battle</h1>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#videos">Videos</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+        <button id="modeToggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <video autoplay muted loop class="bg-video">
+      <source src="assets/videos/video1.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <h2>Welcome to the Frontend Battle</h2>
+      <p>Build. Innovate. Inspire.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Image Gallery</h2>
+    <div class="grid">
+      <img src="assests/cards.png" />
+      <img src="assests/graph.png" />
+      <img src="assests/stats.png" />
+      <!-- <img src="assets/images/img4.jpg" />
+      <img src="assets/images/img5.jpg" />
+      <img src="assets/images/img6.jpg" /> -->
+    </div>
+  </section>
+
+  <!-- Video Section -->
+  <section id="videos" class="video-section">
+    <h2>Video Showcase</h2>
+    <div class="video-grid">
+      <video controls>
+        <source src="assests/caraousel switch.mp4" type="video/mp4" />
+      </video>
+      <video controls>
+        <source src="assests/customer-section.mp4" type="video/mp4" />
+      </video>
+      <video controls>
+        <source src="assests/features-services.mp4" type="video/mp4" />
+      </video>
+       <video controls>
+        <source src="assests/homepage.mp4" type="video/mp4" />
+      </video>
+       <video controls>
+        <source src="assests/loader.mp4" type="video/mp4" />
+      </video>
+       <video controls>
+        <source src="assests/parallax animation.mp4" type="video/mp4" />
+      </video>
+       <video controls>
+        <source src="assests/ripple effect.mp4" type="video/mp4" />
+      </video>
+       <video controls>
+        <source src="assests/scroll and pop up.mp4" type="video/mp4" />
+      </video>
+       <video controls>
+        <source src="assests/showcase work.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Why Choose Us?</h2>
+    <div class="feature-grid">
+      <div class="card">📱 Fully Responsive</div>
+      <div class="card">🌗 Light/Dark Mode</div>
+      <div class="card">⚡ Fast Loader</div>
+      <div class="card">🎥 Media-Rich Layout</div>
+      <div class="card">🧭 Smooth Navigation</div>
+      <div class="card">💡 Creative Enhancements</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Frontend Battle. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
